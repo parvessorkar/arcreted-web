@@ -29,7 +29,7 @@
  }
  .nav-title{
   color: #131313;
-  font-size: 3rem;
+  font-size: 4rem;
  }
  /* baner style */
  .baner-container{
@@ -55,10 +55,11 @@
   border: 0;
  }
  .img{
-  margin: 0 240px;
+  margin: 0 240px 40px 240px;
  }
 
  /* make fot mobile phone */
+ 
 @media screen and (max-width:576px) {
   nav{
     flex-direction: column;
@@ -72,5 +73,11 @@
     margin: 0px;
   }          
 }
-  
+/* tablet and mediam device */
+ @media screen and (min-width:576px) and (max-width:960px) {
+   .img{
+    margin:0px;
+    width: 100%;
+   }
+ } 
  
