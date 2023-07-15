@@ -1,0 +1,76 @@
+/* google font uses */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&family=Work+Sans:wght@400;600;700;800&display=swap');
+ *{
+   font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+ }
+ /* header style  */
+ header{
+  background: rgba(255, 144, 14, 0.10);
+ }
+ nav{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 50px 240px;
+ } 
+ nav>ul{
+  list-style: none;
+ }
+ nav a{
+  text-decoration: none;
+  margin-right: 1rem;
+ }
+ ul{
+  display: flex;
+  font-size: 1rem;
+  color:#424242;
+  
+ }
+ .nav-title{
+  color: #131313;
+  font-size: 3rem;
+ }
+ /* baner style */
+ .baner-container{
+  margin: 0 auto;
+  max-width:800px ;
+  text-align: center;
+  padding-bottom: 20px;
+ }
+ .baner-heading{
+   font-size: 4rem;
+   color: #131313;
+ }
+ .baner-descreption{
+  color: #727272;
+  font-size: 1rem;
+ }
+ .btn{
+  color: #FFF ; 
+  padding:20px 25px ;
+  border-radius: 8px;
+  background: #FF900E;
+  font-size: 20px;
+  border: 0;
+ }
+ .img{
+  margin: 0 240px;
+ }
+
+ /* make fot mobile phone */
+@media screen and (max-width:576px) {
+  nav{
+    flex-direction: column;
+    padding:0px;
+  }
+  nav li{
+   padding: 0px;   
+  }
+  .img{
+    width: 100%;
+    margin: 0px;
+  }          
+}
+  
+ 
