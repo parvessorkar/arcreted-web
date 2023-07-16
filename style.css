@@ -104,6 +104,7 @@ font-size: 45px;
 font-weight: 700;
 border-left: 5px  solid #FF900E;
 padding-left: 10px;
+
  }
  .information{
   color:#727272;
@@ -129,13 +130,15 @@ margin-top: 20px;
 padding:30px ;
 }
  .for-flex{
-  display: flex;
+  display:;
  }
   .feature-contianer{
     
   }
   .feature-head{
-    margin: 100px 240px;        
+    margin: 100px 240px;
+    display: flex;
+    gap:140px;        
   }
  /* team section end */
     .fact{
@@ -215,6 +218,9 @@ padding:30px ;
   grid-template-columns: repeat(2,1fr);
   gap: 5px;
   justify-items:center;
+}
+.single-img{
+   
 }
 }
 /* tablet and mediam device */
