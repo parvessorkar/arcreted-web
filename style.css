@@ -95,8 +95,21 @@ font-weight: 700;
 font-size: 16px;
 font-weight: 400;
  }
+ main{
+  max-width: 1140px;
+ }
  /* team section end */
-
+    .fact{
+      margin:100px 240px;
+    }
+    .box-container{
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .box{
+     border-radius: 8px;
+     border: 1px solid #FF900E;
+    }
  /* make fot mobile phone */
  
 @media screen and (max-width:576px) {
@@ -131,10 +144,21 @@ font-weight: 400;
    .img{
     margin:0px;
     width: 100%;
-   }
+   }  
  }
  .team-img-containe{
   margin: 0px;
   padding: 0px;
- } 
+ }
+ 
+ @media screen and (min-width:960px) and (max-width:1300px) {
+  .baner img{
+    margin:0px auto;
+    width: 100%;
+  }
+  .team{
+    margin: 0 auto;
+  }
+ }
+ 
  
