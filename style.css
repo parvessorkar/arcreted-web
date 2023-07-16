@@ -97,7 +97,46 @@ font-size: 16px;
 font-weight: 400;
 padding-bottom:20px ;
  }
- 
+ /* feature section */
+ .feature-head .title{
+  color:#131313;
+font-size: 45px;
+font-weight: 700;
+border-left: 5px  solid #FF900E;
+padding-left: 10px;
+ }
+ .information{
+  color:#727272;
+font-size: 16px;
+font-weight: 400;
+
+ }
+ .f-heading{
+   color: #131313;
+font-size: 20px;
+font-weight: 600;
+ }
+ .f-discreption{
+  color: #727272;
+font-size: 16px;
+font-weight: 400;
+ }
+ .feature{
+  border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+margin-top: 20px;
+padding:30px ;
+}
+ .for-flex{
+  display: flex;
+ }
+  .feature-contianer{
+    
+  }
+  .feature-head{
+    margin: 100px 240px;        
+  }
  /* team section end */
     .fact{
       margin:100px 240px;
@@ -123,6 +162,27 @@ padding-bottom:20px ;
    font-size: 2.8rem;
    font-weight: 700;
     }
+    /* sponsor style area */
+    .sponsor-text{
+      text-align: center;
+    }
+    .sponsor-heading{
+     color:#131313;
+     font-size: 45px;
+     font-weight: 700;
+    }
+    .sponsor-discreption{
+      color:#727272;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 60px;
+    }
+    .sponsor-img-container{
+      display: flex; 
+      justify-content: center;
+      justify-content: space-evenly;
+    }
+
  /* make fot mobile phone */
  
 @media screen and (max-width:576px) {
