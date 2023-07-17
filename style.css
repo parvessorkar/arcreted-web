@@ -211,7 +211,7 @@ bottom: 100px;
  /* make fot mobile phone */
  
 @media screen and (max-width:576px) {
-  nav{
+  nav,.feature-head{
     flex-direction: column;
     padding:0px;
   }
@@ -241,9 +241,17 @@ bottom: 100px;
   gap: 5px;
   justify-items:center;
 }
-.single-img{
-   
-}
+.feature-head{
+  margin:0px;  
+ }
+ .feature-pic .single-pic{
+  width: 100%;
+  margin-left: 0;
+ }
+  .feature-pic .years{
+    max-width: 300px;
+    bottom: 0px;
+  }
 }
 /* tablet and mediam device */
  @media screen and (min-width:576px) and (max-width:960px) {
