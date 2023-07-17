@@ -100,22 +100,22 @@ padding-bottom:20px ;
  /* feature section */
  .feature-head .title{
   color:#131313;
-font-size: 45px;
-font-weight: 700;
-border-left: 5px  solid #FF900E;
-padding-left: 10px;
+  font-size: 45px;
+  font-weight: 700;
+  border-left: 5px  solid #FF900E;
+  padding-left: 10px;
 
  }
  .information{
   color:#727272;
-font-size: 16px;
-font-weight: 400;
+  font-size: 16px;
+  font-weight: 400;
 
  }
  .f-heading{
    color: #131313;
-font-size: 20px;
-font-weight: 600;
+   font-size: 20px;
+   font-weight: 600;
  }
  .f-discreption{
   color: #727272;
@@ -124,22 +124,44 @@ font-weight: 400;
  }
  .feature{
   border-radius: 8px;
-background: #FFF;
+   background: #FFF;
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-margin-top: 20px;
-padding:30px ;
-}
- .for-flex{
-  display:;
- }
+   margin-top: 20px;
+   padding:30px ;
+} 
   .feature-contianer{
     
   }
   .feature-head{
     margin: 100px 240px;
     display: flex;
-    gap:140px;        
+    gap:100px;        
   }
+  .feature-pic .single-pic{
+   margin-left:80px;
+   height: 100%;
+  }
+  .years {
+color: #FFF;
+text-align: center;
+border-radius: 8px;
+background: #FF900E;
+width: 342px;
+padding: 40px;
+position: relative;
+bottom: 100px;
+  }
+  .years h2{
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;  
+  }
+.years p{
+  font-size:25px;
+  font-weight: 500;
+  margin: 0;
+}
+  
  /* team section end */
     .fact{
       margin:100px 240px;
