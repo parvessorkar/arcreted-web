@@ -207,11 +207,23 @@ bottom: 100px;
       justify-content: center;
       justify-content: space-evenly;
     }
+    .footer-section{
+     border-radius: 8px;
+     background: #FFF4E7;
+     margin: 130px 230px; 
+    }
+  .last-thing{
+    color:#424242;
+text-align: center;
+font-size: 20px;
+font-weight: 400px;
+padding:40px 100px;
+   } 
 
  /* make fot mobile phone */
  
 @media screen and (max-width:576px) {
-  nav,.feature-head{
+  nav,.feature-head,.sponsor-img-container{
     flex-direction: column;
     padding:0px;
   }
@@ -251,6 +263,21 @@ bottom: 100px;
   .feature-pic .years{
     max-width: 300px;
     bottom: 0px;
+    justify-content: center;
+  }
+  .sponsor-img-container{
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+  }
+  .fact{
+    margin: 0px;
+  }
+  .footer-section{
+    margin: 0px;
+  }
+  .footer-section .last-thing{
+    padding:50px;
   }
 }
 /* tablet and mediam device */
@@ -269,15 +296,28 @@ bottom: 100px;
  }
  .team{ 
   padding-top: 0px;
- } 
+  
+ }
+  
  @media screen and (min-width:960px) and (max-width:1300px) {
   .baner img{
     margin:0px auto;
     width: 100%;
   }
   .team{
-    margin: 0;
+    margin: 0;   
+  }
+ 
+  .feature-pic .single-pic{
+   margin: 0px;
+  }
+  .fact{
+    margin-top: 0px;
+  }
+  .box-container{ 
+    gap: 50px;
   }
  }
+
  
  
